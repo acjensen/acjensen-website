@@ -1,10 +1,7 @@
 # Site settings
 title: Andrew Charles Jensen
 email: andrew.charles.jensen@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  I am a senior in Mechanical Engineering at the University of Illinois at Urbana-Champaign
-  with a focus in mechanical design. I have a passion for engineering design and working
-  with others towards creative solutions.
+description: I am a senior in Mechanical Engineering at the University of Illinois at Urbana-Champaign with a focus in mechanical design. I have a passion for engineering design and working with others towards creative solutions.
 baseurl:  /blog/ # the subpath of your site, e.g. /blog/
 url: https://www.acjensen.com/ # the base hostname & protocol for your site
 twitter_username: twitter_username
