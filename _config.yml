@@ -1,12 +1,14 @@
 # Site settings
-title: *folio
-email: you@example.com
+title: Andrew Charles Jensen
+email: andrew.charles.jensen@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A simple, whitespace, helvetica based portfolio theme.
-baseurl:  # the subpath of your site, e.g. /blog/
-url:  # the base hostname & protocol for your site
+  I am a senior in Mechanical Engineering at the University of Illinois at Urbana-Champaign
+  with a focus in mechanical design. I have a passion for engineering design and working
+  with others towards creative solutions.
+baseurl:  /blog/ # the subpath of your site, e.g. /blog/
+url: https://www.acjensen.com/ # the base hostname & protocol for your site
 twitter_username: twitter_username
-github_username:  github_username
+github_username:  acjense2
 
 # Build settings
 markdown: kramdown
