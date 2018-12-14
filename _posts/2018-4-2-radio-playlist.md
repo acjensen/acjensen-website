@@ -12,16 +12,16 @@ A simple python script was sufficient to download a snipped of radio, identify t
 ## Recording the radio
 First we have to record a snippet of radio audio to use for identification. We can get a direct link from a radio stream website by inspecting the webpage's source. I found a stream of my favorite radio station using [TuneIn](https://tunein.com/).
 
-```html
+~~~~html
 <div id="player" style="width: 0px; height: 0px;">
    <img id="jp_poster_0" style="width: 0px; height: 0px; display: none;">
    <audio id="jp_audio_0" preload="metadata" src="http://54.213.1.131/alphatyler-kooifmmp3-ibc2?session-id=905d1dce346e446ebf6bd47342232bfa&amp;source=TuneIn" title="106.5 Jack FM - Playing What We Want"></audio>
 </div>
-```
+~~~~
 
 We can open the page and download raw audio to a `.wav` using standard python libraries. I found that 10 seconds was long enough for identification.
 
-```python
+~~~~python
 import time, sys
 from urllib.request import urlopen
 url = 'http://18363.live.streamtheworld.com/WZSTFM.mp3?tdtok=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImtpZCI6ImZTeXA4In0.eyJpc3MiOiJ0aXNydiIsInN1YiI6IjIxMDY0IiwiaWF0IjoxNTM3MDM4NjY0LCJ0ZC1yZWciOmZhbHNlfQ.aB_AKuD_Vwmu_3t8poeAoWq9E2K_aJfVz8piMpKZeis'
@@ -47,14 +47,14 @@ f.close()
 sys.stdout.flush()
 print("")
 print("10 seconds from "+url+" have been recorded in "+fname)
-```
+~~~~
 
 ## Song recognition
 We can identify the audio snippet using Automatic Content Recognition service (ACR). ACR generates an audio fingerprint using distinguishing characteristics such as average zero crossing rate, tempo, and average spectrum. It identifies the fingerprint by comparing to a database of reference fingerprints.
 
 We can use the free API provided by [ACRCloud](https://www.acrcloud.com/) to return song metadata such as Spotify song ID and track title.
 
-```python
+~~~~python
 from acrcloud.recognizer import ACRCloudRecognizer
 import json
 config = {
@@ -77,12 +77,12 @@ try:
 except:
     print('Audio could not be identified')
     sys.exit()
-```
+~~~~
 
 ## Connecting to Spotify
 I utilized the [spotipy](https://github.com/plamere/spotipy) library written by [Paul Lamere](https://musicmachinery.com/) to simplify interaction with Spotify's API. We need to provide IDs for the identified track, radio playlist, and a client token tied to the Spotify account.
 
-```python
+~~~~python
 import pprint
 import sys
 import spotipy
@@ -107,7 +107,7 @@ if token:
 
 else:
     print("Can't get token for", username)
-```
+~~~~
 
 # Results
 The script does a great job of identifying songs using ACRCloud. The script does not protect against duplicates, so it is necessary to occasionally run [JMPerez's](https://jmperezperez.com/) [Spotify Deduplicator](https://jmperezperez.com/spotify-dedup/). A future version could include the spotify deduplicator, or compare the identified song against the current list before adding.
