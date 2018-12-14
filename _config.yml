@@ -18,22 +18,13 @@ resume: https://github.com/acjense2/acjense2.github.io/tree/master/resume.pdf
 # Flags below are optional
 #
 
-# Includes an icon in the footer for each username you enter
+# Footer info
 footer-links:
-  dribbble:
   email: andrew.charles.jensen@gmail.com
-  facebook:
-  flickr:
-  github: acjensen
-  instagram:
-  linkedin: andrewjensen1995
-  pinterest:
-  rss: anything # just type anything here for a working RSS icon
-  twitter: 
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
+  instagram: 
+  linkedin: andrewcharlesjensen
+  github: 
+  
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account

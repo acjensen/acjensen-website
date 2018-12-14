@@ -1,12 +1,16 @@
-<a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}/images/avatar-andrew-charles-jensen.jpg" /></a>
+<a class="site-avatar"><img src="{{ site.baseurl }}/images/portrait-photo.png" /></a>
 
-Currently I am working in various areas of product development as part of [Caterpillar Inc.](http://www.caterpillar.com/)'s [Engineering Rotational Development Program](http://www.caterpillar.com/it/careers/career-areas/college-university/development-programs/engineering-rotational-development/product-development.html).
+Currently I am working as a Product Development Engineer at [Caterpillar Inc.](http://www.caterpillar.com/)
 
 I graduated from the [University of Illinois at Urbana-Champaign](http://illinois.edu/) with a bachelors degree in [Mechanical Engineering](http://mechanical.illinois.edu/).
 
 In the past I've been employed as
-  *  A Performance Data Management intern at [Caterpillar LPSD](http://www.caterpillar.com/)
-  *  A Telematics System Integration intern at [Caterpillar ACSD](http://www.caterpillar.com/)
+  *  A Design Engineer for [Caterpillar Track-Type Tractors](https://www.cat.com/en_US/products/new/equipment/dozers.html)
+  *  A Data Analytics Engineer at the [Caterpillar Data Innovation Lab](https://www.caterpillar.com/en/company/innovation/customer-solutions/data-analytics/innovation-lab.html)
+  *  A Controls Engineer for [Caterpillar Articulated Trucks](https://www.cat.com/en_US/products/new/equipment/articulated-trucks.html)
+  *  A Design Engineering Liaison at the [Caterpillar Seguin Engine Facility](https://www.equipmentworld.com/inside-cat-seguin-engine/)
+  *  A Performance Data Management intern at [Caterpillar Large Power Systems](https://www.cat.com/en_US/products/new/power-systems.html)
+  *  A Telematics System Integration intern at [Caterpillar Electronics](https://www.cat.com/plw)
   *  A [STEM course tutor](http://care.engineering.illinois.edu/) at the [University of Illinois at Urbana-Champaign](http://illinois.edu/)
   *  A Lab Assistant for [Maui Jim Sunglasses](https://www.mauijim.com/)
 
