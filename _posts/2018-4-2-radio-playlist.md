@@ -12,12 +12,12 @@ A simple python script was sufficient to download a snipped of radio, identify t
 ## Recording the radio
 First we have to record a snippet of radio audio to use for identification. We can get a direct link from a radio stream website by inspecting the webpage's source. I found a stream of my favorite radio station using [TuneIn](https://tunein.com/).
 
-~~~~html
+~~~ html
 <div id="player" style="width: 0px; height: 0px;">
    <img id="jp_poster_0" style="width: 0px; height: 0px; display: none;">
    <audio id="jp_audio_0" preload="metadata" src="http://54.213.1.131/alphatyler-kooifmmp3-ibc2?session-id=905d1dce346e446ebf6bd47342232bfa&amp;source=TuneIn" title="106.5 Jack FM - Playing What We Want"></audio>
 </div>
-~~~~
+~~~
 
 We can open the page and download raw audio to a `.wav` using standard python libraries. I found that 10 seconds was long enough for identification.
 
