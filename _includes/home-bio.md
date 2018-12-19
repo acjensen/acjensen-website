@@ -17,4 +17,5 @@ In the past I've been employed as
 
 For more information, see my [resume]({{ site.baseurl }}/andrew-jensen-resume.pdf).
 
+
 <a><img src="https://projecteuler.net/profile/andrewcharlesjensen.png" /></a>
