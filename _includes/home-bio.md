@@ -16,3 +16,5 @@ In the past I've been employed as
   *  A Lab Assistant for [Maui Jim Sunglasses](https://www.mauijim.com/)
 
 For more information, see my [resume]({{ site.baseurl }}/andrew-jensen-resume.pdf).
+
+<a><img src="https://projecteuler.net/profile/andrewcharlesjensen.png" /></a>
