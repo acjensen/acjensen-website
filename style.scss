@@ -284,6 +284,22 @@ footer {
   text-align: center;
 }
 
+.project-euler {
+  float: right;
+  margin-right: 0px;
+  margin-left: 0px;
+
+  @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
