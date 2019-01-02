@@ -112,6 +112,6 @@ else:
 # Results
 The script does a great job of identifying songs using ACRCloud. The script does not protect against duplicates, so it is necessary to occasionally run [JMPerez's](https://jmperezperez.com/) [Spotify Deduplicator](https://jmperezperez.com/spotify-dedup/). A future version could include the spotify deduplicator, or compare the identified song against the current list before adding.
 
-The full source can be found on [Github](https://github.com/acjensen/radio-playlist)
+The full source can be found on [Github](https://github.com/acjensen/radio-playlist).
 
 {% include spotify.html %}
