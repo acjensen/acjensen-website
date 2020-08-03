@@ -5,7 +5,7 @@ title: Making a random sample generator with Python
 
 I made a simple python script to collect random samples of audio from the internet and spread them across my midi keyboard.
 
-![Midi keyboard](midi-keyboard.png)
+<img src="../images/midi-keyboard.png" width="100">
 
 ## Finding an audio source
 YouTube is a rich source of audio content. The script generates a search term from two random English words and downloads search results using [pytube](https://github.com/get-pytube/pytube3).
