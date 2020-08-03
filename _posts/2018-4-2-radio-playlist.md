@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Making a playlist from local radio
+title: Spotify playlist generator from local radio
 playlist-id: playlist/0YNiCpiDoBymDKZSGSOaMa
 ---
 

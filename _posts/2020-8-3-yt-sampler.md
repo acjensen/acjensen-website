@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Making a random sample generator with Python
+title: Random audio keyboard with Python
 ---
 
-I made a simple python script to collect random samples of audio from the internet and spread them across my midi keyboard.
+I made a simple python script to collect random samples of audio from the internet and spread them across my midi keyboard for musical inspiration.
 
 <img src="../images/midi-keyboard.png" width="100">
 
