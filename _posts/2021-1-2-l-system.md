@@ -9,17 +9,17 @@ Recently I've been programming simulations of *continuous* [dynamical systems](h
 
 A time-invariant, first-order, *continuous* dynamical system can be described with a simple equation \\( \frac{dx}{dt}=f(x(t)) \\), where \\( x(t) \\) is the state of the system at time \\( t \\), and \\( f \\) is some function describing how to get to the next state in terms of the current state \\( x(t) \\).
 
-How can we simulate a continous-time system with a discrete computer? A computer can run simulate a dynamical system evolving over time by applying the function \\( f \\) over many infinitely small timesteps \\( dt \\). In other words, at each subsequent timestep \\( dt \\), we can calculate the next state with \\( x_{next}=x_{now} + dx \\). From our first equation, we know \\( dx = f(x(t))dt \\), and we arrive at the following computation:
+How can we simulate a continous-time system with a discrete computer? A computer can simulate a dynamical system evolving over time by applying the function \\( f \\) over many infinitely small timesteps \\( dt \\). In other words, at each subsequent timestep \\( dt \\), we can calculate the next state with \\( x_{next}=x_{now} + dx \\). From our first equation, we know that \\( dx = f(x(t))dt \\), and we arrive at the following computation:
 
 \\[ x_{next} = x_{now} + f(x_{now})dt \\]
 
-It is difficult to compute an accurate \\( x_{next} \\) from a current state \\( x_{now} \\) because \\( dt \\) is infintesimally small, and computers cannot directly compute boundless quantities (see the [Forward Euler Method](https://en.wikipedia.org/wiki/Euler_method)).
+It is difficult to compute \\( x_{next} \\) accurately because \\( dt \\) is infintesimally small, and computers cannot directly compute boundless quantities (read: [Forward Euler Method](https://en.wikipedia.org/wiki/Euler_method)).
 
-In *discrete* dynamical systems, the evolution of the state \\( x \\) does not depend on time: \\( x_{next} \\) is a direct function of the current state \\( x_{now} \\).
+In *discrete* dynamical systems however, the evolution of the state \\( x \\) does not depend on time: \\( x_{next} \\) is a direct function of the current state \\( x_{now} \\).
 
 \\[ x_{next} = f(x_{now}) \\]
 
-[Lindenmayer systems](https://en.wikipedia.org/wiki/L-system) are an interesting discrete dynamical system in that a simple state mutation function applied many times can generate beautifully complex results.
+[Lindenmayer systems](https://en.wikipedia.org/wiki/L-system) are an interesting discrete dynamical system to study because a simple state mutation function applied many times can generate beautifully complex results.
 
 ## Growing a fractal plant
 
@@ -28,7 +28,7 @@ A particularly interesting Lindenmayer system is the fractal plant. A fractal pl
 - X --> F+[[X]-X]-F[-FX]+X
 - F --> FF
 
-The plant's state is represented as an ordered list of symbols that evolve according to the rules above. The symbols can be interpreted to render a plant-like image per below.
+The plant's state is represented as an ordered list of symbols that evolve according to the rules above. Each symbol can be interpreted as an instruction for a 2D renderer, resulting in a plant-like image.
 
 - F --> "draw forward"
 - \- --> "turn right"
