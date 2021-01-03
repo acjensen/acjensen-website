@@ -19,7 +19,7 @@ In *discrete* dynamical systems however, the evolution of the state \\( x \\) do
 
 \\[ x_{next} = f(x_{now}) \\]
 
-[Lindenmayer systems](https://en.wikipedia.org/wiki/L-system) are an interesting discrete dynamical system to study because a simple state mutation function applied many times can generate beautifully complex results.
+[Lindenmayer systems](https://en.wikipedia.org/wiki/L-system) are interesting discrete dynamical systems to study because they demonstrate how a simple state mutation function applied many times can generate beautifully complex results.
 
 ## Growing a fractal plant
 
