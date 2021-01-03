@@ -6,7 +6,7 @@
 name: Andrew Charles Jensen
 
 # Short bio or description (displayed in the header)
-description: Peoria, IL | Champaign, IL
+description: Peoria, IL
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://github.com/acjense2/acjense2.github.io/images/avatar-andrew-charles-jensen.jpg
@@ -54,6 +54,7 @@ version: v1.2.0
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
+  math_engine: mathjax
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
