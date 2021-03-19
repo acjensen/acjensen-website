@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    {% include meta.html %}
+<head>
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  {% include meta.html %}
 
-  </head>
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
+    href="{{ site.baseurl }}/feed.xml" />
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
+</head>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-          </div>
+<body>
+  <div class="wrapper-masthead">
+    <div class="container">
+      <header class="masthead clearfix">
 
-          <nav>
-		        <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/blog">Blog</a>
-            <a href="mailto:{{ site.footer-links.email }}">Email</a>
-			      <a href="{{ site.baseurl }}/andrew-jensen-resume.pdf">Resume</a>
-          </nav>
-        </header>
-      </div>
+        <div class="site-info">
+          <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+        </div>
+
+        <nav>
+          <a href="{{ site.baseurl }}/">Home</a>
+          <a href="{{ site.baseurl }}/blog">Blog</a>
+          <a href="mailto:{{ site.footer-links.email }}">Email</a>
+          <a href="{{ site.baseurl }}/andrew-jensen-resume.pdf">Resume</a>
+        </nav>
+      </header>
     </div>
+  </div>
 
-    <div id="main" role="main" class="container">
-      {{ content | markdownify }}
+  <div id="main" role="main" class="container">
+    {{ content | markdownify }}
+  </div>
+
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        {% include footer.html %}
+      </footer>
     </div>
+  </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include footer.html %}
-        </footer>
-      </div>
-    </div>
+</body>
 
-    {% include analytics.html %}
-  </body>
 </html>
