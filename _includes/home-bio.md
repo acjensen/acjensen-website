@@ -19,4 +19,4 @@ In the past, I've been employed at as:
 For more information, see my [resume]({{ site.baseurl }}/andrew-jensen-resume.pdf).
 
 
-<a class="project-euler"><img src="https://projecteuler.net/profile/andrewcharlesjensen.png" /></a>
+<!-- <a class="project-euler"><img src="https://projecteuler.net/profile/andrewcharlesjensen.png" /></a> -->
