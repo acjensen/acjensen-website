@@ -16,7 +16,7 @@ In the past, I've been employed at as:
   *  A [STEM course tutor](http://care.engineering.illinois.edu/) at the [University of Illinois at Urbana-Champaign](http://illinois.edu/)
   *  A Lab Assistant for [Maui Jim Sunglasses](https://www.mauijim.com/)
 
-For more information, see my [resume]({{ site.baseurl }}/andrew-jensen-resume.pdf).
+For more information, see my [resume]({{ site.baseurl }}/resume.pdf).
 
 
 <!-- <a class="project-euler"><img src="https://projecteuler.net/profile/andrewcharlesjensen.png" /></a> -->
