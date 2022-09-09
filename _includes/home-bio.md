@@ -1,10 +1,11 @@
 <a class="site-avatar"><img src="{{ site.baseurl }}/images/portrait-photo.png" /></a>
 
-Currently I am working as a Software Control Engineer at [Caterpillar Inc.](http://www.caterpillar.com/)
+Currently I am working as a Software Engineer at [Amazon](https://www.aboutamazon.com/).
 
 I graduated from the [University of Illinois at Urbana-Champaign](http://illinois.edu/) with a bachelors degree in [Mechanical Engineering](http://mechanical.illinois.edu/).
 
 In the past, I've been employed at as:
+  *  A Software Control Engineer at [Caterpillar](http://www.caterpillar.com/)
   *  An Engine Performance Engineer at [Caterpillar](http://www.caterpillar.com/)
   *  A Product Development Engineer in Caterpillar's rotational program, doing: 
      *  Mechanical design for [Track-Type Tractors](https://www.cat.com/en_US/products/new/equipment/dozers.html)
