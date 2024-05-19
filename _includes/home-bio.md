@@ -1,6 +1,6 @@
 <a class="site-avatar"><img src="{{ site.baseurl }}/images/portrait-photo.png" /></a>
 
-I am currently a software engineer at [Amazon](https://www.aboutamazon.com/).
+I am currently a software engineer at [Amazon](https://www.aboutamazon.com/) in Chicago.
 
 In the past, I've been employed at [Caterpillar](https://www.caterpillar.com/) as:
   *  A software control design/simulation engineer for diesel engines
