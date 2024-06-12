@@ -5,7 +5,7 @@ title: Growing fractal plants in Go
 
 Recently I've been programming simulations of *continuous* [dynamical systems](https://en.wikipedia.org/wiki/Dynamical_systems_theory) at work, and *discrete* dynamical systems as part of many [solutions](https://github.com/acjensen/advent-of-code/tree/main/day11) to the [Advent of Code 2020](https://adventofcode.com/2020). In this post I'll first compare continuous vs discrete system simulation methods, and then "grow" a plant by modelling it as a discrete dynamical system.
 
-## Dyanamical systems
+## Dynamical systems
 
 A time-invariant, first-order, *continuous* dynamical system can be described with a simple equation \\( \frac{dx}{dt}=f(x(t)) \\), where \\( x(t) \\) is the state of the system at time \\( t \\), and \\( f \\) is some function describing how to get to the next state in terms of the current state \\( x(t) \\).
 
